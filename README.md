@@ -10,8 +10,8 @@ The outcome (how long a client has gone into arrears) is included as just anothe
 
 `{self-employed, high debt-to-income, new client} → {high risk}`
 
-## Why Association Rules (Not a Predictive Model)
-The point of this project isn't to build the most accurate risk classifier. It's to find interpretable, explainable patterns in the data, the kind of insight you can hand to a non-technical stakeholder and have it make immediate sense. 
+## Why Association Rules
+The goal of this project is to find interpretable, explainable patterns in the data, the kind of insight you can hand to a non-technical stakeholder and have it make immediate sense. 
 
 ## Data
 Loan-level data (~80,000 records) with client attributes and days in arrears as the outcome measure. All client data is anonymized.
