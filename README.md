@@ -1,7 +1,7 @@
 # Association Rule Mining for Loan Default Risk Patterns
 
 ## Overview
-This project uses association rule mining to uncover patterns in loan client data that are linked to different levels of repayment risk. Rather than predicting a single risk score for each client, the goal is to surface human-readable "if this combination, then that risk level" rules, patterns that can support underwriting decisions and a general understanding of what tends to co-occur with risky loans.
+This project uses association rule mining, an unsupervised learning technique within machine learning and data mining, to uncover patterns in loan client data that are linked to different levels of repayment risk. Rather than predicting a single risk score for each client, the goal is to surface human-readable "if this combination, then that risk level" rules, patterns that can support underwriting decisions and a general understanding of what tends to co-occur with risky loans.
 
 ## The Idea
 Each data instance is treated as a basket made up of attributes: income level, employment status, debt-to-income ratio, loan size, tenor and so on. Association rule mining (FP-Growth) looks across all clients to find which combinations of these attributes tend to appear together more often than chance.
