@@ -1,6 +1,0 @@
-- get data
-- remap column names
-- convert numeric fields to bins (how to do it) (0 days late is NO_RISK lowRisk, mediumRisk, highRisk, criticalRisk (find levels))
-- check redundancy with Cramér's V
-- drop redundant fields
-- check data distributions to understand data imbalances
